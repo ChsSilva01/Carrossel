@@ -1,24 +1,56 @@
+.cor_site{
+    background-color: #8a2be8;
+}
+.quadro{
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
 .carrossel{
     width: 600px;
     height: 500px;
-    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 .carrossel .fotos{
-    width: 1000%;
-    animation: animacao 10s infinite;
+    width: 1300%;
+    animation: animacao 30s infinite;
 }
 .carrossel .fotos img{
-    width: 9.9%;
+    width: 596px;
 }
 @keyframes animacao {
-    0% { margin-left: 0;}
-    20% { margin-left: 0;}
-    25% { margin-left: -100%;}
-    45% { margin-left: -100%;}
-    50% { margin-left: -200%;}
-    70% { margin-left: -200%;}
-    75% { margin-left: -300%;}
-    95% { margin-left: -300%;}
-    100% { margin-left: -400%;}
+    5% { margin-left: 0;}
+    5% { margin-left: 0;}
+    10% { margin-left: 0;}
+    15% { margin-left: -100%;}
+    15% { margin-left: -100%;}
+    20% { margin-left: -100%;}
+    25% { margin-left: -200%;}
+    25% { margin-left: -200%;}
+    30% { margin-left: -200%;}
+    35% { margin-left: -300%;}
+    35% { margin-left: -300%;}
+    40% { margin-left: -300%;}
+    45% { margin-left: -400%;}
+    45% { margin-left: -400%;}
+    50% { margin-left: -400%;}
+    55% { margin-left: -500%;}
+    55% { margin-left: -500%;}
+    60% { margin-left: -500%;}
+    65% { margin-left: -600%;}
+    65% { margin-left: -600%;}
+    70% { margin-left: -600%;}    
+    75% { margin-left: -700%;}
+    75% { margin-left: -700%;}
+    80% { margin-left: -700%;}
+    85% { margin-left: -800%;}
+    85% { margin-left: -800%;}
+    90% { margin-left: -800%;}
+    91.5% { margin-left: -900%;}
+    93% { margin-left: -900%;}
+    94.5% { margin-left: -900%;}
+    96% { margin-left: -1000%;}
+    97.5% { margin-left: -1000%;}
+    99% { margin-left: -1000%;}
+    100% { margin-left: -1100%;}                
 }
